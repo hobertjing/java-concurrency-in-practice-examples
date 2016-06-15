@@ -9,8 +9,6 @@ import net.jcip.annotations.*;
  * UnsafeCountingFactorizer
  *
  * Servlet that counts requests without the necessary synchronization
- *
- * @author Brian Goetz and Tim Peierls
  */
 @NotThreadSafe
 public class UnsafeCountingFactorizer extends GenericServlet implements Servlet {
