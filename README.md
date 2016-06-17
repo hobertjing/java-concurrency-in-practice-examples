@@ -2,20 +2,20 @@
 ###代码注解说明
 
 **@ThreadSafe**  
-表示 这个类是线程安全的。
+表示 这个类是线程安全的。  
 
 **@NotThreadSafe**  
-表示 这个类不是线程安全的。
+表示 这个类不是线程安全的。  
 
 **@Immutable**  
-表示 类是不可变的，不可变对象是线程安全的。
+表示 类是不可变的，不可变对象是线程安全的。  
 
 **@GuardedBy(lock)**  
 **@GuardedBy("this")**  
 受对象内部锁保护  
 
 **@GuardedBy("fieldName")**  
-受 与fieldName引用相关联的锁 保护。
+受 与fieldName引用相关联的锁 保护。  
   
 **@GuardedBy("ClassName.fieldName")**  
 受 一个类的静态field的锁 保存。  
