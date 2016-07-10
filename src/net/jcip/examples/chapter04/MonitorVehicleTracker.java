@@ -8,6 +8,7 @@ import net.jcip.annotations.*;
  * MonitorVehicleTracker
  * <p/>
  * Monitor-based vehicle tracker implementation
+ * 基于监视器模实现的“车辆追踪器”
  */
 @ThreadSafe
  public class MonitorVehicleTracker {
