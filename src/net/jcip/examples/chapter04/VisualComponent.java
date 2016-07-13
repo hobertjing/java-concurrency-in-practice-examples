@@ -15,7 +15,8 @@ public class VisualComponent {
             = new CopyOnWriteArrayList<KeyListener>();
     private final List<MouseListener> mouseListeners
             = new CopyOnWriteArrayList<MouseListener>();
-
+//使用CopyOnWriteArrayList来保存各个监听列表，线程安全
+    
     public void addKeyListener(KeyListener listener) {
         keyListeners.add(listener);
     }

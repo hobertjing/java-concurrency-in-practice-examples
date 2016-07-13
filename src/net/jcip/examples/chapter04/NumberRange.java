@@ -2,11 +2,14 @@ package net.jcip.examples.chapter04;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
+import net.jcip.annotations.NotThreadSafe;
+
 /**
  * NumberRange
  * <p/>
  * Number range class that does not sufficiently protect its invariants
  */
+@NotThreadSafe
 public class NumberRange {
     // INVARIANT: lower <= upper 不变性条件
     private final AtomicInteger lower = new AtomicInteger(0);

@@ -37,7 +37,7 @@ public class DelegatingVehicleTracker {
 
     // Alternate version of getLocations (Listing 4.8)
     public Map<String, Point> getLocationsAsStatic() {
-        return Collections.unmodifiableMap(
+        return Collections.unmodifiableMap(//返回指定映射的不可修改视图
                 new HashMap<String, Point>(locations));
     }
 }
