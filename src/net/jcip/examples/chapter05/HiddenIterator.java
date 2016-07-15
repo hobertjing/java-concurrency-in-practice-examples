@@ -1,8 +1,11 @@
 package net.jcip.examples.chapter05;
 
-import java.util.*;
+import java.util.HashSet;
+import java.util.Random;
+import java.util.Set;
 
-import net.jcip.annotations.*;
+import net.jcip.annotations.GuardedBy;
+import net.jcip.annotations.NotThreadSafe;
 
 /**
  * HiddenIterator
