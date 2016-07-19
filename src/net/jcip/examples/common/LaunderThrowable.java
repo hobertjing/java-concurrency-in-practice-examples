@@ -1,4 +1,4 @@
-package net.jcip.examples.chapter05;
+package net.jcip.examples.common;
 
 /**
  * StaticUtilities

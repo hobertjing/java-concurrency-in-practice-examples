@@ -2,6 +2,8 @@ package net.jcip.examples.chapter05;
 
 import java.util.concurrent.*;
 
+import net.jcip.examples.common.LaunderThrowable;
+
 /**
  * Memoizer
  * <p/>
