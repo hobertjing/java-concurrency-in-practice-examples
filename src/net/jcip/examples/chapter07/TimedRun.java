@@ -12,8 +12,7 @@ import static net.jcip.examples.common.LaunderThrowable.launderThrowable;
 public class TimedRun {
     private static final ExecutorService taskExec = Executors.newCachedThreadPool();
 
-    public static void timedRun(Runnable r,
-                                long timeout, TimeUnit unit)
+    public static void timedRun(Runnable r, long timeout, TimeUnit unit)
             throws InterruptedException {
         Future<?> task = taskExec.submit(r);
         try {
